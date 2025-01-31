@@ -54,6 +54,7 @@ export const PROJECTS = [
       " Developed a full-stack web application to upload and watch videos using Next.js, TypeScript and Express. Made use of Pub/Sub Message Queue to notify Cloud Run when files were uploaded to Cloud Storage Bucket. Used Firebase functions and stored videos and user details in Firestore. Used Docker to containerise the app and deployed it to Google Cloud Run.",
     technologies: ["React", "TypeScript", "Next.js", "Express", "Google Cloud Services", "Docker"],
     githublink:"https://github.com/mursalin-habib/youtube-clone",
+    link:"https://yt-web-client-1049515487055.us-central1.run.app/",
   },
   {
     title: "Big Data Processing",

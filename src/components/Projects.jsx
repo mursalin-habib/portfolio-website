@@ -31,7 +31,8 @@ const Projects = () => {
                         {project.title}
                     </h6>
                     <p className='mb-4 text-neutral-400'>{project.description}<br></br>
-                    <a href={project.githublink} className='border-b text-purple-200'>{project.githublink}</a>
+                    <a href={project.githublink} className='border-b text-purple-200'>{project.githublink}</a><br></br>
+                    <a href={project.link} className='border-b text-purple-200'>{project.link}</a>
                     </p>
                     {project.technologies.map((tech, index) => (
                         <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500">
