@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        discord: {
+          DEFAULT: "#5865F2", // Blurple
+          dark: "#23272A", // Dark background
+          greyple: "#99AAB5", // Grey
+        },
+      },
+    },
   },
   plugins: [],
 }

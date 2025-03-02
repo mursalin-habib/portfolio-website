@@ -4,7 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaGoodreads } from "react-icons/fa";
-
+import { FaDiscord } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -23,7 +23,15 @@ const Navbar = () => {
         >
           <FaGithub />
         </a>
-          <a
+        <a
+          href="https://www.discordapp.com/users/mursalin.h"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-discord"
+        >
+          <FaDiscord />
+        </a>
+        <a
           href="https://www.goodreads.com/mursalin_"
           target="_blank"
           rel="noopener noreferrer"

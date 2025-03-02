@@ -94,6 +94,6 @@ export const EDUCATION = [
 
 export const CONTACT = {
   address: " ",
-  phoneNo: "+44 07776468672",
+  phoneNo: " ",
   email: "mursalin.habib98@gmail.com",
 };
