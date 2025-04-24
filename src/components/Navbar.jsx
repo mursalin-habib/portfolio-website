@@ -32,7 +32,7 @@ const Navbar = () => {
           <FaDiscord />
         </a>
         <a
-          
+          href="https://www.goodreads.com/mursalin_"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-[#75420e]"
